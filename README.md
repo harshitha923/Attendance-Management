@@ -32,13 +32,14 @@ face-attendance-system/
 └── README.md # Project documentation
 
 ## 🛠️ Requirements
-
 Install the required libraries using pip:
+
     pip install opencv-python numpy scikit-learn pywin32
 
 ## 🚀 How to Use
 Step 1: Add New User Faces
 Run the face capture script:
+
     python add_faces.py
 Enter your name when prompted.
 It will collect and store 100 face images.
@@ -56,7 +57,7 @@ Press a to take attendance
 
 Press q to quit
 
-Output
+Step 3:Output
 A CSV file is created in the Attendance/ folder with:
 
 User's name
