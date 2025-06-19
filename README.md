@@ -10,7 +10,6 @@ This is a real-time Python-based face recognition attendance system. It uses Ope
 - 🔍 Face recognition using K-Nearest Neighbors (KNN)
 - ✍️ Face data storage using Python pickle
 - 📅 Attendance recorded in daily CSV logs
-- 🗣️ Text-to-speech voice feedback (Windows only via SAPI)
 - 🖼️ Optional background UI with custom frame embedding
 
 ---
@@ -25,7 +24,7 @@ face-attendance-system/
 │ └── faces_data.pkl
 │
 ├── Attendance/
-│ └── Attendance_<DD-MM-YYYY>.csv
+│ └── Attendance_<DD-MM-YYYY>.csv #created while taking attendance
 │
 ├── add_faces.py # Script to capture and save face data
 ├── test.py # Script to recognize faces and record attendance
@@ -35,8 +34,6 @@ face-attendance-system/
 ## 🛠️ Requirements
 
 Install the required libraries using pip:
-
-```bash
     pip install opencv-python numpy scikit-learn pywin32
 
 ## 🚀 How to Use
@@ -67,10 +64,9 @@ User's name
 Time of attendance
 
 ## Sample Output
-yaml
-Copy
-Edit
+
 Enter Your Name: <name>
+
 100 face samples captured and saved.
 
 Shape of Faces matrix --> (300, 7500)
